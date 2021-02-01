@@ -3,8 +3,8 @@ public class Foo {
     private int second;
 
     public Foo(int first, int second) {
-        this.first = first;
-        this.second = second;
+        setFirst(first);
+        setSecond(second);
     }
 
     public int getSecond() {
