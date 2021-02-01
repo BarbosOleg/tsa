@@ -22,11 +22,11 @@ public class Foo {
     public void setFirst(int first) {
         this.first = first;
     }
-    public int bigger(){
+    public void bigger(){
         if (this.first > this.second)
-            return this.first;
+            System.out.println(first + " is bigger than " + second);
         else if(this.second == this.first)
-            return second;
-        else return this.second;
+            System.out.println("number is equal");
+        else System.out.println(second + " is bigger than " + first);
     }
 }
